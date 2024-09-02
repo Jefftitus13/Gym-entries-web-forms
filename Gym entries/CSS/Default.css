@@ -1,0 +1,60 @@
+﻿/*Default Page*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #e3dada;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/afaf.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+    .gridview th, .gridview td {
+        padding: 15px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    .gridview th {
+        background-color: #f4f4f4;
+    }
+
+    .gridview tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
