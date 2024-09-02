@@ -19,6 +19,7 @@ This repository contains an ASP.NET WebForms project designed to manage gym memb
 1. ASP.NET WebForms: For building the user interface and handling the server-side logic.
 2. C#: For processing form submissions and performing CRUD operations.
 3. SQL Server: For storing and managing member data.
+4. HTML, CSS, Javascript: For structuring and styling the web pages.
 
 ## How to Use
 1. Register a New Member: Fill out the form with the member's details, select their experience level and preferred workout, and enter their height and weight. Submit the form to add the new member to the database.
